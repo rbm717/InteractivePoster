@@ -116,7 +116,7 @@ function setup() {
 
   //Loads images
   img_poster = loadImage('Poster.png');
-  img_electroDio = loadImage('ElectroDio.png');
+  img_electroDio = loadImage('ElectroDio.PNG');
   img_quinDiglett = loadImage('quinDiglett.png');
   img_cuffy = loadImage('CuffySwole.png');
   img_dex = loadImage('Pokedex.png');
@@ -289,7 +289,7 @@ function mouseClicked(){
       stage = 2;
       if(player == 0){
         adversaryType = 2;
-        img_player = loadImage('ElectroDio.png');
+        img_player = loadImage('ElectroDio.PNG');
       }else if(player == 1){
         adversaryType = 0;
         img_player = loadImage('quinDiglett.png');
