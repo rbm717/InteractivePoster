@@ -65,7 +65,7 @@ class adversary{
     }else if(adversaryType == 1){
       this.img = loadImage('quinDiglett.png');
     }else if(adversaryType == 2){
-      this.img = loadImage('cuffySwole.png');
+      this.img = loadImage('CuffySwole.png');
     }
   }
   move(){
