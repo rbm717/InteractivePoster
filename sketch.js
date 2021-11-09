@@ -61,7 +61,7 @@ class adversary{
     this.alive = true;
     this.movementRate = (1);
     if(adversaryType == 0){
-      this.img = loadImage('ElectroDio.png');
+      this.img = loadImage('ElectroDio.PNG');
     }else if(adversaryType == 1){
       this.img = loadImage('quinDiglett.png');
     }else if(adversaryType == 2){
@@ -120,7 +120,7 @@ function setup() {
   img_quinDiglett = loadImage('quinDiglett.png');
   img_cuffy = loadImage('CuffySwole.png');
   img_dex = loadImage('Pokedex.png');
-  img_back = loadImage('Back.png');
+  img_back = loadImage('Back.PNG');
   img_gameBoy = loadImage('InteractiveBackground.png');
   dexFont = loadFont('digital-7 (mono).ttf');
 
